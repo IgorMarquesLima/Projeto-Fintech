@@ -1,0 +1,76 @@
+.container, .container-fluid {
+    background-color: #13a0d8;
+}
+
+.modal {
+    width: 300px;
+  }
+  .modal-content {
+    width: 300px;
+  }
+
+  .modal-body{
+    background-color: #261058;
+  }
+
+  .list-group-item:hover {
+    background-color: rgba(59, 57, 57, 0.164) !important;
+    color: white;
+    box-shadow: 150px 1px 80px 5px #13a0d8;
+    font-weight: 500;
+    height: 40px;
+    width: 268px;
+    left: 15%;
+
+  }
+
+.row {
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+}
+
+main {
+    background-color: white;
+    color: white;
+    font-size: medium;
+}
+
+p {
+    font-family: arial;
+    font-size: medium;
+}
+
+.item {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #261058;
+    border-color: white;
+    border-radius: 0.5em;
+    position:static;
+    float: left;
+    margin-left: 1em;
+    margin-top: 1em;
+    width: 10em;
+    height: 8em;
+}
+
+.li {
+    font-size:larger;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+#novo_item {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 0.5em;
+    position:static;
+}
+
+#ad-nome, #ad-valor, #ad-data, #ad-tipo {
+    border-radius: 0.5em;
+}
